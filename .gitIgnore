@@ -9,5 +9,7 @@ junit-results
 errorShots
 yarn-error.log
 yarn.lock
+package-lock.json
+.gitattributes
 
 true
