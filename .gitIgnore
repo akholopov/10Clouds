@@ -1,0 +1,13 @@
+.idea
+node_modules
+
+allure-results
+allure-report
+driver-logs
+junit-results
+
+errorShots
+yarn-error.log
+yarn.lock
+
+true

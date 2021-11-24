@@ -1,0 +1,26 @@
+{
+    "name": "wdio-tests",
+    "scripts": {
+        "test:e2e": "./node_modules/.bin/wdio ./src/test/config/wdio.conf.js",
+        "wdio": "wdio run wdio.conf.js"
+    },
+    "devDependencies": {
+        "@wdio/allure-reporter": "^7.7.7",
+        "@wdio/browserstack-service": "^7.7.8",
+        "@wdio/cli": "^7.16.9",
+        "@wdio/devtools-service": "^7.7.8",
+        "@wdio/junit-reporter": "^7.7.8",
+        "@wdio/local-runner": "^7.16.9",
+        "@wdio/mocha-framework": "^7.16.6",
+        "@wdio/selenium-standalone-service": "^7.7.7",
+        "@wdio/spec-reporter": "^7.16.9",
+        "@wdio/sync": "^7.7.8",
+        "chai": "^4.3.4",
+        "chromedriver": "^96.0.0",
+        "mocha": "^8.3.2",
+        "wdio-chromedriver-service": "^7.2.2",
+        "webdriverio": "^7.7.8",
+        "winston": "^3.3.3",
+        "yargs": "^16.2.0"
+    }
+}
